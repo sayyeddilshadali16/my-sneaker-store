@@ -1,0 +1,57 @@
+.nav-container {
+  display: flex;
+  background-color: #071113;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+}
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: white;
+}
+
+.sneaker-logo {
+  height: 68px;
+  width: 68px;
+}
+
+.item-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 12px 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.search_input {
+  border: none;
+  background-color: transparent;
+}
+
+.search_input:focus {
+  border: none;
+  outline: none;
+}
+.search_input:focus::placeholder {
+  color: white;
+}
+
+.search_input::placeholder {
+  color: black;
+}
+.nav_item{
+  width: 250px;
+}
