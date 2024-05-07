@@ -1,3 +1,10 @@
+# My sneaker store
+
+Create a e commerece website, where user can browse our diverse collection of footwear.
+
+![Screenshot (127)](https://github.com/sayyeddilshadali16/my-sneaker-store/assets/142899602/cf7cc905-9c79-4ecf-a8b0-715ff4f9827b)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
