@@ -20,7 +20,7 @@ const Nav = ({ handleInputChange, query }) => {
               value={query}
               placeholder="Search"
             />
-            <i class="ri-search-line"></i>
+            <i className="ri-search-line"></i>
           </div>
         </div>
         <div className="profile-container nav_item">

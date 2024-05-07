@@ -54,6 +54,7 @@ function App() {
       ({ id,img, title, star, reviews, prevPrice, newPrice }) => (
         <Card
           key={id}
+          id={id}
           img={img}
           title={title}
           star={star}

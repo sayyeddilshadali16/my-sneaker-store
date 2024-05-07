@@ -19,11 +19,11 @@ const Card = ({ id,img, title, star, reviews, prevPrice, newPrice }) => {
             <div className="bag">
               <BsFillBagFill className="bag-icon" />
             </div>
-            <NavLink to={`/productdetails/${id}`}>
+            {<NavLink to={`/productdetails/${id}`}>
               <button className="buy-btn">
                 <span className="btn-span">Buy now</span>
               </button>
-            </NavLink>
+            </NavLink>}
           </section>
         </div>
       </section>
